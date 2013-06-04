@@ -12,7 +12,7 @@ require 'base64'
 
 gmail = Gmail.new(ENV['GMAIL_USERNAME'],ENV['GMAIL_PASSWORD'])
 
-templateBody = File.read('/tmp/ups.txt')
+templateBody = File.read('/Users/jmcjunkin/scripts/templates/ups.html')
 
 # Build the tracking URL
 baseDomain = "www.upsdeliverytracking.com/index.html"
